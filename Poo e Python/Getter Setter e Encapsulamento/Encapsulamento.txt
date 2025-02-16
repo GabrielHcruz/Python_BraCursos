@@ -1,0 +1,18 @@
+
+Diferente da maioria das linguagens, como Java, PHP e C#, o Python (independente da nomenclatura), mantém todos os atributos e métodos públicos.
+
+De forma geral, todas as linguagens de programação que utilizam orientação a objetos usam modificadores de acesso para alterar a visibilidade de classes, atributos e métodos.
+
+Diferentemente de outras linguagens, como o Java e o C#, que utilizam palavras reservadas, a linguagem Python utiliza o símbolo underscore ”_”.
+
+Dentro da orientação a objetos temos os modificadores Public(publico), Protected(protegido) e Private(privado).
+
+
+Publico: Ele permite acesso tanto de dentro, quanto de fora de uma classe.
+    publico_ (atributos publicos possuem underline na frente do nome)
+
+protegido: Utilizando o modificador protegido, somente suas classes e subclasses terão acesso ao atributo ou método.
+    _protegido (possuem um underline antes do nome)
+
+privado: Ele permite que somente a sua classe (onde foi definido) tenha acesso a um determinado atributo ou método.
+    privado__ (dois underlines na frente do nome)

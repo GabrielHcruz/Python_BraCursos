@@ -1,0 +1,40 @@
+
+Para permitir o acesso aos atributos de forma controlada, a prática mais comum é a utilização de dois métodos de acesso: um retornando valor e outro que muda valor.
+
+Getters e Setters são usados na maioria das linguagens de programação orientada a objetos com o objetivo de garantir o princípio de encapsulamento de dados.
+
+Os métodos são utilizados para implementações que alteram os valores internos da classe ou que retornam valores dela.
+
+Sintaxe dos Métodos
+
+Getter:
+get_nome do atributo()
+
+Exemplo:
+
+def get_idade(self):
+    return self._idade 
+
+# no caso _idade é um atributo protegido da classe
+# O underline que antecede a variavel é padrão na função (def get_nome) é padrão
+
+
+Setter:
+set_nome do atributo()
+
+Exemplo:
+
+def set_idade(self,parametro(s)):
+    self._idade = parametro
+
+# no caso _idade é um atributo protegido da classe
+# O underline que antecede a variavel é padrão na função (def set_nome) é padrão
+# Dentro da função usamos o nome da variável. EX:
+    class Exemplo:
+        def__init__(self,nome):
+            self.nome__ = nome #nome nesse caso é privado(em teoria)
+
+        def set_nome(self,n):
+            self.nome__ # Observe que está igual á sua declaração
+
+
