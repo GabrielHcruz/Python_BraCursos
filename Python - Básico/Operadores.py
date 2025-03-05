@@ -11,8 +11,6 @@
 # Operadores Lógicos
 
 # Python                outras linguagens
-#  E   = and             E  = &&
-#  OU  = or              OU = ||
-#  NOT = not
-
-
+#  E   = and             E   = &&
+#  OU  = or              OU  = ||
+#  NOT = not             NOT = !

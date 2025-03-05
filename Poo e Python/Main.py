@@ -2,6 +2,7 @@
 # Como a classe Main não possui atributos.
 # Utilizamos apenas a palavra reservada pass.
 from Cliente import Cliente
+# from (arquivo.py) import (classe ou *(todas as classes) em um arquivo)
 from Conta import Conta
 
 class Main:

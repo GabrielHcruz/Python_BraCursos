@@ -10,5 +10,3 @@ print(nome)
 
 idade = int(input("Quantos anos você tem: "))
 print(idade)
-
-
