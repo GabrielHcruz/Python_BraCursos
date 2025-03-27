@@ -5,7 +5,7 @@
 # Multiplicação	*
 # Divisão Real	/
 # Divisão Inteiro	//
-# Exponenciação	**
+# Exponenciação(potência)	base**expoente
 # Resto da Divisão	%
 
 # Operadores Lógicos
@@ -14,3 +14,6 @@
 #  E   = and             E   = &&
 #  OU  = or              OU  = ||
 #  NOT = not             NOT = !
+
+# Operadores Relacionais
+# := Atribuição

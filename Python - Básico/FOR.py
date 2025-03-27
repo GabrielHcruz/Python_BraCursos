@@ -18,12 +18,12 @@ print('\n')
 for Y in range(5, 15):
     print('Y: ' +str(Y))
 
-    # Nesse caso Y começa em 1 e vai até 9
+    # Nesse caso Y começa em 5 e vai até 14
+
+print('\n')
 
     # Também é possivel utilizar decremento no contador, dentro do comando range
     # ex:
-print('\n')
-
 for A in range(10,0, -1):
     print(A)
 
