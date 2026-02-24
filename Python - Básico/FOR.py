@@ -3,21 +3,22 @@
 for X in range (10):
     print('X: ',X)
 
-# No exemplo que acabamos acima, a variável X é inicialmente ajustada para 0 (valor padrão).
+# No exemplo acima, a variável X é inicialmente ajustada para 0 (valor padrão).
 
-# Uma vez que n é menor do que 10 (condição), o comando print é executado.
+# Uma vez que X é menor do que 10 (condição), o comando print é executado.
 
-# Essa condição é adicionada com o comando range.
+# Essa condição é adicionada com o comando range(intervalo).
 
-# A variável n é incrementada em 1 (incremento padrão)
+# A variável X é incrementada em 1 (incremento padrão)
 
-# para alterar os valores de X deve ser feita dentro de range
+# para alterar os valores de X, deve ser feita uma alteração dentro de range
 # EX:
 print('\n')
 
 for Y in range(5, 15):
     print('Y: ' +str(Y))
-
+    # +str(Y) = é uma forma de exibir informações, não muito diferente das aspas, seu uso aqui dispensa a necessidade da vírgula. ex: print('Y:' , Y)
+    # +str(Y) = usado apenas em variaveis q NÃO SÃO Strings.
     # Nesse caso Y começa em 5 e vai até 14
 
 print('\n')
