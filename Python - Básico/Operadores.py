@@ -16,4 +16,6 @@
 #  NOT = not             NOT = !
 
 # Operadores Relacionais
-# := Atribuição
+# := Atribuição, ex:
+while (frase := input("digite algo: ")) != "sair":
+    print("vd digitou: ", frase)
